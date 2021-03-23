@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="THƯ MỜI HỘI THẢO TRỰC TUYẾN" />
+    <meta property="og:description" content="Trân trọng kính mời Quý Đối tác tham dự buổi hội thảo thực tuyến Công ty CP Giải pháp Siêu Việt và HP đồng tổ chức" />
+    <meta property="og:image"
+        content="https://i.imgur.com/6ndlykv.png" />
+    <title>THƯ MỜI HỘI THẢO TRỰC TUYẾN</title>
+    <style>
+        #parent {
+            background-color: white;
+            position: absolute;
+            width: 800px;
+        }
+
+        @media only screen and (min-width: 800px) {
+            #parent {
+                left: 50%;
+                margin-left: -400px;
+            }
+        }
+
+        h2,
+        h3,
+        p,
+        h4 {
+            font-family: Calibri, Arial
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            background-color: rgb(241, 241, 241);
+        }
+
+        .container {
+            padding: 40px 45px;
+        }
+
+        #brief_content h4,
+        #brief_content h2 {
+            color: #084a84;
+        }
+
+        #brief_content table tr:last-child td {
+            width: 160px;
+        }
+
+        #brief_content table tr:last-child td p {
+            padding: 0 5px;
+            margin: 0;
+        }
+
+        #time_line {
+            background-color: #d1d2d4;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #time_line>table tr {
+            border-top: 2px solid white;
+        }
+
+        #time_line>table tr td {
+            padding: 4px 10px;
+        }
+
+        #time_line>table tr td:first-child {
+            white-space: nowrap;
+            border-right: 2px solid white;
+            font-weight: bold;
+        }
+
+        #time_line p,
+        #address p:not(:first-child),
+        form p {
+            margin: 0;
+        }
+
+        form p,
+        input,
+        select {
+            margin-bottom: 4px;
+        }
+
+        input,
+        select {
+            padding: 4px;
+        }
+
+        #address {
+            padding-left: 30px;
+        }
+
+        #form-container p {
+            font-size: small;
+        }
+
+        input {
+            width: 90%;
+        }
+
+        #left {
+            float: left;
+            width: 35%;
+            overflow: hidden;
+            padding-top: 50px;
+            position: relative;
+        }
+
+        #center {
+            overflow: hidden;
+            width: fit-content;
+            float: left;
+            margin-top: 85px;
+            margin-right: 35px;
+        }
+
+        #right {
+            overflow: hidden;
+            padding: 30px;
+            border: 2px dotted #d1d2d4;
+        }
+    </style>
+    <link rel="stylesheet" href="stylesheets/toastr.min.css">
+    <script src="javascripts/jquery-3.6.0.min.js"></script>
+    <script src="javascripts/toastr.min.js"></script>
+</head>
+
+<body>
+    <div id="parent">
+        <img style="width: 800px;" src="images/Asset 2@6x.png" alt="">
+        <div class="container" id="brief_content" style="text-align: center;">
+            <h4 style="margin-top: 0px; margin-bottom: 5px;">THƯ MỜI HỘI THẢO TRỰC TUYẾN:</h4>
+            <h2 style="margin-top: 0px">“Sản phẩm & Công nghệ in ấn HP 2021”</h2>
+            <p style="text-align: justify;">Trân trọng kính mời Quý Đối tác tham dự buổi hội thảo thực tuyến Công ty CP
+                Giải pháp Siêu Việt và HP
+                đồng tổ
+                chức. Tại buổi hội thảo, Quý vị sẽ cùng tìm hiểu về những sản phẩm & công nghệ in ấn trong năm 2021 của
+                HP,
+                cũng như những sản phẩm máy tính phù hợp với nhu cầu của doanh nghiệp và thị trường hiện tại.</p>
+            <table>
+                <tr>
+                    <td rowspan="2" style="text-align: left;">
+                        <h3 style="font-weight: bold; margin: 0; padding-bottom: 80px;">Thông tin hội thảo:</h3>
+                    </td>
+                    <td style="border-right: 2px solid #d1d2d4;">
+                        <img width="70px" src="images/Asset 3@6x.png" alt="">
+                    </td>
+                    <td style="border-right: 2px solid #d1d2d4;">
+                        <img width="65px" src="images/Asset 4@6x.png" alt="">
+                    </td>
+                    <td>
+                        <img width="70px" src="images/Asset 5@6x.png" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border-right: 2px solid #d1d2d4;">
+                        <p style="font-weight: bold;">Thứ Tư,</p>
+                        <p style="margin: 0">ngày 24/03/2021</p>
+                    </td>
+                    <td style="border-right: 2px solid #d1d2d4;">
+                        <p style="font-weight: bold;">Từ 14:00 - 15:30</p>
+                    </td>
+                    <td>
+                        <p style="font-weight: bold;">Họp trực tiếp tại Zoom Webinar</p>
+                        <p style="font-size: small;">(Link họp sẽ được gửi khi Quý vị xác nhận tham dự)</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="container" id="regis_form" style="padding-top: 0">
+            <div id="form-container">
+                <div id="left">
+                    <h2 style="font-weight: bold; margin: 0;">Đăng ký</h2>
+                    <h2 style="font-weight: bold; margin: 0;">hội nghị trực tuyến</h2>
+                    <p style="margin: 0;">Vui lòng điền đầy đủ thông tin vào mẫu bên.</p>
+                    <p style="margin: 0;">Chúng tôi sẽ liên lạc sớm nhất khi có thể</p>
+                </div>
+                <div id="center">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="fill: #d1d2d4" width='30' height='30'>
+                        <path d="M 17,10 3,17 3,3 z" />
+                    </svg>
+                </div>
+                <div id="right">
+                    <form action="/insert" method="post">
+                        <table>
+                            <tr>
+                                <td colspan="2">
+                                    <p>Họ và tên</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input style="width: 95%;" type="text" name="name" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p>Đơn vị công tác</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input style="width: 95%;" type="text" name="work" id="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Số điện thoại</p>
+                                </td>
+                                <td>
+                                    <p>Email</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="phone" id=""></td>
+                                <td><input type="email" name="email" id=""></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;" colspan="2">
+                                    <input style="width: auto; margin-top: 16px;" type="submit" value="Đăng ký">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="time_line">
+            <h4 style="margin-top: 0;">CHƯƠNG TRÌNH HỘI THẢO</h4>
+            <table>
+                <tr>
+                    <td>
+                        <p>14:00 - 14:15</p>
+                    </td>
+                    <td>
+                        <p>Check-in & đón khách</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>14:15 - 14:20</p>
+                    </td>
+                    <td>
+                        <p>Khai mạc hội thảo</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>14:20 - 14:40</p>
+                    </td>
+                    <td>
+                        <p>“Giới thiệu sản phẩm và cách lựa chọn máy in phù hợp”</p>
+                        <p>Trình bày bởi anh Lê Minh Hiếu - Chuyên viên Đào tạo HP</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>14:40 - 14:50</p>
+                    </td>
+                    <td>
+                        <p>Mini game</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>14:50 - 15:10</p>
+                    </td>
+                    <td>
+                        <p>“Giới thiệu sản phẩm mới và các công nghệ bảo mật”</p>
+                        <p>Trình bày bởi anh Lê Minh Hiếu - Chuyên viên Đào tạo HP</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>15:10 - 15:20</p>
+                    </td>
+                    <td>
+                        <p>“Cập nhật chương trình bán hàng & khuyến mãi” bởi Đại diện Siêu Việt</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>15:20 - 15:30</p>
+                    </td>
+                    <td>
+                        <p>Hỏi đáp</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>15:30</p>
+                    </td>
+                    <td>
+                        <p>Kết thúc hội thảo</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <footer>
+                <table>
+                    <tr>
+                        <td style="border-right: 2px solid #d1d2d4;">
+                            <p style="font-weight: bold; margin-bottom: 0;">Hội thảo hoàn toàn miễn phí và chỉ có 80
+                                suất
+                                tham dự.</p>
+                            <p style="font-style: italic; margin-top: 0;">Để tham dự hội thảo, vui lòng đăng ký ngay
+                                tại:
+                            </p>
+                            <p>Hân hạnh được đón tiếp Quý khách tại Hội thảo.</p>
+                            <p style="font-weight: bold;">Xin trân trọng cảm ơn!</p>
+                        </td>
+                        <td id="address">
+                            <p style="font-style: italic; margin-top: 0;">Mọi thông tin, xin vui lòng liên hệ:</p>
+                            <p style="font-weight: bold;">Đơn vị tổ chức: Công ty CP Phát triển</p>
+                            <p style="font-weight: bold;">Thương hiệu Trần Gia</p>
+                            <p>Ms. Chi (HP Agency)</p>
+                            <p>Email: <a href="chile@trangia.vn">chile@trangia.vn</a></p>
+                            <p>Tel: 0935 591 386</p>
+                        </td>
+                    </tr>
+                </table>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const myParam = urlParams.get('success');
+            console.log(myParam)
+            if (myParam == "true") {
+                toastr.success('Đã đăng ký thành công')
+            } else if (myParam == "false") {
+                toastr.error('Đăng ký thất bại')
+            }
+        })
+    </script>
+</body>
+
+</html>
